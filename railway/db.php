@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="style.css" />
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "fire02arthurboyle31452";
-$dbname = "railway";
+$username = "YOUR_USERNAME";
+$password = "YOUR_PASSWORD";
+$dbname = "DB_NAME";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) 
