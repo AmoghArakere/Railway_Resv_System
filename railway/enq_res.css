@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.booking-bg {
+  background-image: url(trainnnnnn.webp);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.table-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.train-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Add margin for separation */
+}
+
+.train-table th, .train-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.booking-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the form */
+}
+
+.booking-form p {
+  margin-bottom: 20px;
+}
+
+label, input {
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+a {
+  display: block;
+  text-align: center;
+  color: #4caf50;
+  text-decoration: none;
+  margin-top: 20px;
+}

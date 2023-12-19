@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="nuf.css">
+ <title>User Registration</title>
+  
+</head>
+<body style=" background-image: url(train_logo.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;" >
+    <section>
+        
+        <div class="form-box">
+            <div class="form-value">
+                <form action="new_user_form.php" method="post">
+                    <h2>Sign Up</h2>
+
+                    <div class="inputbox">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <input type="text" name="mobileno" id="mobileno"required>
+                        <label for="mobileno">Contacts</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                        <input type="date" name="dob" id="dob"required>
+                        <label for="dob"></label>
+                    </div>
+
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="emailid" id="emailid"required>
+                        <label for="emailid">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password" id="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for="remember"><input type="checkbox" id="remember">Remember Me </label>
+                      
+                    </div>
+
+                    
+                    <button type="submit" style="color: dimgrey;" onmouseover="this.style.color='black'" onmouseout="this.style.color='dimgrey'">
+                        Create an account
+                      </button>
+                      
+                   
+                    <br><br>
+
+                    <div>
+                        <a href="index.htm" style="color: aliceblue; display: block; text-align: center; margin: 0 auto;">Home</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
